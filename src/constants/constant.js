@@ -1,0 +1,1 @@
+export const API_ENDPOINT = "https://search.bossjob.com/api/v1/search/job_filter?size=10&query=system";

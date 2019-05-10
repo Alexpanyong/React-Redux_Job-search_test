@@ -1,0 +1,82 @@
+.App {
+  background: #f9f9f9;
+}
+
+.App-Wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 700px;
+}
+
+.searchBox {
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #8f8f8f;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 0 4px 10px 0 #f2f2f2;
+  box-shadow: 0 4px 10px 0 #f2f2f2;
+}
+
+.searchBox span {
+  font-weight: bold;
+}
+
+.searchBox .inputBox {
+  position: relative;
+}
+
+.searchBox .inputBox input {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #8f8f8f;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  background: none;
+  
+}
+
+.searchBox .inputBox input:focus {
+  outline: none;
+}
+
+.searchBox .searchBtn {
+  width: 100%;
+  margin: 34px 0 0 0;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2278e7;
+  border: 1px solid #2278e7;
+  background: none;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.searchBox .searchBtn:focus {
+  outline: none;  
+}
+
+.searchBox .searchBtn:hover {
+  cursor: pointer;
+}
+
+.jobsWrapper {
+  padding: 10px 20px;
+}
+
+.jobsWrapper .numberOfJobs {
+  padding: 16px 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #353535;
+  border-bottom: 1px solid #e6e6e6;
+}
